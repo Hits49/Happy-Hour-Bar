@@ -22,6 +22,9 @@ body {
 header {
     background-color:aqua;
 }
+h1 {
+    font-family: 'ephesis', sans-serif;
+}
 
 /*main */
 main {

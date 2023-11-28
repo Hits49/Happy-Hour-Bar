@@ -20,7 +20,7 @@ body {
 
 /* header*/
 header {
-    background-color:#f8d664;
+    background-color:#f8d563;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -51,6 +51,18 @@ h1 {
 .active {
     border-bottom: 1px solid #51c46a;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #f8d563 ;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #3a3a3a;
+    display: none;
+}
+
 /*main */
 main {
     background-color: darkgrey;

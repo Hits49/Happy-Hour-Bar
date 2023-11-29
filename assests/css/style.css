@@ -89,10 +89,19 @@ main {
 }
 
 /*footer */
-footer {
-    background-color: azure;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #f8d563;
 }
-
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #51c46a;
+}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */ 
@@ -122,10 +131,12 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
 }
+    
+    }
     /* Main content */
     main {
         /* Push main content down to accomedate larger header */
-        margin-top: 79px;
+        margin-top: 56px;
     }
       
 }

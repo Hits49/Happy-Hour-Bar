@@ -29,6 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    min-height: 76px;
+    
 
 }
 header a {
@@ -69,7 +71,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 3px 3px #3a3a3a;
+    box-shadow: 0 1px 1px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -91,7 +93,8 @@ main {
     background-color: darkgrey;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 56px;
+    margin-top: 57px;
+
 }
 
 /*footer */
@@ -136,13 +139,13 @@ main {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
-}
-    
+}   
     }
+
  /* Main content */
     main {
         /* Push main content down to accomedate larger header */
-        margin-top: 56px;
+        margin-top: 77px;
     }
 
 /* Large devices (laptops and desktops, 992px and up */

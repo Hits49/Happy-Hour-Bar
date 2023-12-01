@@ -51,7 +51,7 @@ h1 {
 
 #menu {
     font-size:150%;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     list-style-type: none;
     font-family:'ephesis', sans-serif ;
 
@@ -71,7 +71,7 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 1px 1px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -90,13 +90,19 @@ nav {
 
 /*main */
 main {
-    background-color: darkgrey;
+    
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    
-
+    margin-top: 78px;
 }
 
+/* Bar Section */
+#bar {
+    height: 990px;
+    width:100%;
+    background: url("../images/pexels-pixabay-260922.jpg") no-repeat center center/cover;
+
+}
 /*footer */
 #social-networks {
     text-align: center;

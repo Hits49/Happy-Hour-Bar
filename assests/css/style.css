@@ -25,7 +25,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 3px 3px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -93,7 +93,7 @@ main {
     background-color: darkgrey;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 57px;
+    
 
 }
 
@@ -145,7 +145,7 @@ main {
  /* Main content */
     main {
         /* Push main content down to accomedate larger header */
-        margin-top: 77px;
+        margin-top: 78px;
     }
 
 /* Large devices (laptops and desktops, 992px and up */

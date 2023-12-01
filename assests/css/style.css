@@ -20,7 +20,7 @@ body {
 
 /* header*/
 header {
-    background-color:#f8d563;
+    background-color:#bdaa16;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -51,7 +51,7 @@ h1 {
 
 #menu {
     font-size:150%;
-    letter-spacing: 6px;
+    letter-spacing: 15px;
     list-style-type: none;
     font-family:'ephesis', sans-serif ;
 
@@ -67,7 +67,7 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f8d563 ;
+    background-color: #bdaa16 ;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -85,7 +85,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 8rem;
 }
 
 /*main */

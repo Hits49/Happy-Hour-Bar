@@ -18,18 +18,33 @@ body {
     font-family: 'ubuntu', sans-serif;
 }
 
+h1{
+    font-family: 'ubuntu', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #51c46a;
+}
+
+h2, h3 {
+    font-family: 'ephesis', sans-serif;
+    text-transform: capitalize;
+    letter-spacing:  3px;
+    color:#51c46a;
+    text-align: center;
+    font-size: 130%;
+}
 /* header*/
 header {
     background-color:#bdaa16;
-    padding: 0 1rem;
-    position: fixed;
+    padding: 0 ;
+    position: absolute;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    min-height: 76px;
+    align-items: center;
+    min-height: 80px;
     
 
 }
@@ -42,16 +57,10 @@ header  i {
     color: #51c46a;
 }
 
-h1 {
-    font-family: 'ubuntu', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #51c46a;
-}
 
 #menu {
     font-size:150%;
-    letter-spacing: 15px;
+    letter-spacing: normal;
     list-style-type: none;
     font-family:'ephesis', sans-serif ;
 
@@ -92,16 +101,29 @@ nav {
 main {
     
     /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
+    flex: 1 2 auto;
     margin-top: 78px;
 }
 
 /* Bar Section */
 #bar {
-    height: 990px;
+    height: 100vh;
     width:100%;
     background: url("../images/pexels-pixabay-260922.jpg") no-repeat center center/cover;
+    position: relative;
 
+}
+
+#cover-text {
+    background-blend-mode: normal;
+    font-size: 30px;
+    font-family: 'ephesis',sans-serif;
+    position: absolute;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 15px;
+    content: center;
 }
 /*footer */
 #social-networks {
@@ -151,7 +173,7 @@ main {
  /* Main content */
     main {
         /* Push main content down to accomedate larger header */
-        margin-top: 78px;
+        margin-top: 90px;
     }
 
 /* Large devices (laptops and desktops, 992px and up */

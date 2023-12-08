@@ -123,7 +123,25 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 15px;
-    content: center;
+    margin: 20px auto;
+}
+#welcome-text {
+    font-size: 20px;
+    font-family: 'ubuntu', sans-serif;
+    background-blend-mode: normal;
+    position: absolute;
+    color:white;
+    width: 70%;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 15%;
+    padding-left: 30px;
+    margin: 35% 0;
+}
+#welcome-text > h4 {
+    text-align: center;
+    padding: top 0;
+    color: whitesmoke;
 }
 /*footer */
 #social-networks {
@@ -175,10 +193,21 @@ main {
         /* Push main content down to accomedate larger header */
         margin-top: 90px;
     }
+    #welcome-text {
+        padding-top: 1ch;
+        margin-top: 10em;
+
+    }
 
 /* Large devices (laptops and desktops, 992px and up */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #51c46a;
     }
+
+        #welcome-text {
+            padding-top: 1ch;
+            margin-top: 10em;
+    
+        }
 }

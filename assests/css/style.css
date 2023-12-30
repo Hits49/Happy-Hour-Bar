@@ -28,7 +28,7 @@ h1{
 h2, h3 {
     font-family: 'ephesis', sans-serif;
     text-transform: capitalize;
-    letter-spacing:  3px;
+    letter-spacing:  6px;
     color:#51c46a;
     text-align: center;
     font-size: 110%;
@@ -147,7 +147,7 @@ main {
 #bookatable {
     min-height: 100vh;
     width: 100%;
-    background: url("../images/pexels-pixabay-260922.jpg")  center center/cover no-repeat;
+    background: url("../images/pexels-pixabay-260922.jpg")  center / cover no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,10 +162,13 @@ main {
 }
 
 .card-img {
-    background-image: url("../images/card.img.jpg")  center center/cover no-repeat;
+    background: url("/assests/images/card.img.jpg") center/cover  no-repeat;
+    background-position: 50% 15%;
+    width: 450px;
 }
 
-#bookatable h2 {
+#bookatable  h2 {
+    padding-top: 1em;
     padding-bottom: 60px;
     margin-bottom: 40px;
 }
@@ -177,7 +180,7 @@ main {
 .card-content h3 {
     text-align: center;
     color:#51c46a;
-    padding: 25px 0 10px 0;
+    padding: 10px 0 25px 0;
     font-size: 26px;
     font-weight: 500;
 }

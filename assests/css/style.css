@@ -143,6 +143,14 @@ main {
     padding: top 0;
     color: whitesmoke;
 }
+#happy-hour-deals-offers {
+    margin-top: 30%;
+
+}
+.three-cocktail {
+    margin-top: 25%;
+    width: 30%;
+}
 
 #bookatable {
     min-height: 100vh;
@@ -164,7 +172,7 @@ main {
 .card-img {
     background: url("/assests/images/card.img.jpg") center/cover  no-repeat;
     background-position: 50% 15%;
-    width: 450px;
+   
 }
 
 #bookatable  h2 {
@@ -215,6 +223,18 @@ form input[ type= sumbit] {
 }
 form input [type = submit]:hover{
     opacity: 0.9;
+}
+.address {
+    flex: 1;
+    margin: 2px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.address h4 {
+    font-size: medium;
+    color: #51c46a;
+    letter-spacing: 3;
 }
 
 
